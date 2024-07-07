@@ -7,6 +7,7 @@ import com.atguigu.cloud.apis.PayFeignApi;
 import com.atguigu.cloud.entities.PayDTO;
 import com.atguigu.cloud.resp.ResultData;
 import com.atguigu.cloud.resp.ReturnCodeEnum;
+import io.github.resilience4j.ratelimiter.annotation.RateLimiter;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -54,5 +55,16 @@ public class OrderController {
     public String mylb()
     {
         return payFeignApi.mylb();
+    }
+
+    @GetMapping(value = "/feign/pay/ratelimit/{id}")
+    @RateLimiter(name = "cloud-payment-service",fallbackMethod = "myRatelimitFallback")
+    public String myBulkhead(@PathVariable("id") Integer id)
+    {
+        return payFeignApi.myRatelimit(id);
+    }
+    public String myRatelimitFallback(Integer id,Throwable t)
+    {
+        return "你被限流了，禁止访问/(ㄒoㄒ)/~~";
     }
 }
