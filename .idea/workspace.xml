@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -44,6 +45,10 @@
   "keyToString": {
     "HTTP Request.generated-requests | #4.executor": "Run",
     "Maven.mybatis-generator2024 [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.2:generate].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.Main8001.executor": "Debug",
@@ -55,7 +60,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -107,7 +112,7 @@
       <workItem from="1720327680009" duration="3363000" />
       <workItem from="1720331067085" duration="244000" />
       <workItem from="1720331331720" duration="16000" />
-      <workItem from="1720331384450" duration="1382000" />
+      <workItem from="1720331384450" duration="2705000" />
     </task>
     <servers />
   </component>

@@ -1,2 +1,8 @@
 
-m	java:S106"+Replace this use of System.out by a logger.(—³ıñ8óÑŞˆ2J$1d76b27f-9782-4876-a75b-9d0a93716672
+€
+java:S1854B"8Remove this useless assignment to local variable "data".(§¼¦Úøÿÿÿÿ8•“ßˆ2J$ca99ef06-2f28-446c-9856-bbc18ee30154
+
+java:S4488="HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(À¹˜úüÿÿÿÿ8˜“ßˆ2J$2621f1e1-aeb8-4f94-8836-0b6486c7513c
+l	java:S106A"+Replace this use of System.out by a logger.(˜äë8¥“ßˆ2J$c30e3f96-0ab2-49fe-b402-f4aa59d4d7d2
+q
+java:S1481B")Remove this unused "data" local variable.(§¼¦Úøÿÿÿÿ8§“ßˆ2J$59402798-f043-4832-8439-f407762e2e6d
